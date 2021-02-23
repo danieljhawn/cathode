@@ -1,5 +1,30 @@
+body {
+  text-align: center;
+}
+
 .movie {
   margin: 5px;
   padding: 20px;
   background-color: aqua;
+}
+
+.first {
+  color: antiquewhite;
+  background-color: blue;
+  padding: 5px;
+
+}
+
+.second {
+  color: antiquewhite;
+  background-color: blueviolet;
+  padding: 5px;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
 }
